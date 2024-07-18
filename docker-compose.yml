@@ -1,0 +1,8 @@
+version: '3'
+services:
+  shopping-list:
+    build: .
+    container_name: shopping-list
+    volumes:
+      - ./src:/usr/src/app/src
+      - ./files:/usr/src/app/files
